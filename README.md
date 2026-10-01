@@ -10,7 +10,8 @@ Character banners auto-import for the HoYo games and Endfield (toggle in setting
 
 ## build
 
-Push to main and the workflow builds the apk + windows installer and puts them in releases. Keep the repo private since `ci/debug.keystore` is in it.
+Push to main and the workflow builds the apk + windows installer and puts them in releases.
+* Copy version, repo public so debug keystore absent.
 
 Locally:
 
